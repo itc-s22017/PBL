@@ -19,8 +19,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         binding.button2.setOnClickListener {
-            val intent = Intent(this@MainActivity, TimeActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this@MainActivity, DateListActivity::class.java))
         }
 
 
