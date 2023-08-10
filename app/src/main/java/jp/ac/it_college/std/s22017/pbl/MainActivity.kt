@@ -19,18 +19,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-//        val editText = EditText(this)
-//        val builder = AlertDialog.Builder(this).apply {
-//            setTitle("タイトルです")
-//            setMessage("テストメッセージ（省略可）")
-//            setView(editText)
-//            setPositiveButton("OK") {_, _ ->
-//                val returnText = editText.text
-//                binding.tvSample.text = returnText
-//            }
-//            setNegativeButton("Cancel") {_, _ ->
-//            }
-//        }
-//        builder.show()
+
     }
 }
