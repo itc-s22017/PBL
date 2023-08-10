@@ -1,0 +1,36 @@
+package jp.ac.it_college.std.s22017.pbl
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import androidx.appcompat.app.AlertDialog
+import jp.ac.it_college.std.s22017.pbl.databinding.ActivityMainBinding
+
+class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        binding.btn.setOnClickListener {
+            val intent = Intent(this@MainActivity, ZaikoActivity::class.java)
+            startActivity(intent)
+        }
+
+//        val editText = EditText(this)
+//        val builder = AlertDialog.Builder(this).apply {
+//            setTitle("タイトルです")
+//            setMessage("テストメッセージ（省略可）")
+//            setView(editText)
+//            setPositiveButton("OK") {_, _ ->
+//                val returnText = editText.text
+//                binding.tvSample.text = returnText
+//            }
+//            setNegativeButton("Cancel") {_, _ ->
+//            }
+//        }
+//        builder.show()
+    }
+}
