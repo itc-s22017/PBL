@@ -18,6 +18,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, ZaikoActivity::class.java)
             startActivity(intent)
         }
+        binding.button2.setOnClickListener {
+            val intent = Intent(this@MainActivity, TimeActivity::class.java)
+            startActivity(intent)
+        }
 
 
     }
