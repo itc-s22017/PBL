@@ -14,8 +14,8 @@ class DateListActivity : AppCompatActivity() {
         binding = ActivityDateListBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-//        binding.home.setOnClickListener {
-//            startActivity(Intent(this@DateListActivity, MainActivity::class.java))
-//        }
+        binding.home.setOnClickListener {
+            startActivity(Intent(this@DateListActivity, MainActivity::class.java))
+        }
     }
 }
