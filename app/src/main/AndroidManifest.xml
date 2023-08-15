@@ -21,6 +21,8 @@
         <activity
             android:name=".ZaikoActivity"
             android:exported="false" />
+        <activity android:name=".DateListActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

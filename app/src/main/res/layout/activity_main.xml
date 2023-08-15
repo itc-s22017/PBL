@@ -41,7 +41,7 @@
         android:layout_marginTop="236dp"
         android:width="300dp"
         android:height="52dp"
-        android:text="2"
+        android:text="@string/Utilitycosts"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
