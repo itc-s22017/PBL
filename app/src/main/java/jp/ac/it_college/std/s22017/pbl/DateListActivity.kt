@@ -35,5 +35,10 @@ class DateListActivity : AppCompatActivity() {
             val dialog = DateDialog()
             dialog.show(supportFragmentManager, "dialog_basic")
         }
+
+        binding.time.setOnClickListener {
+            startActivity(Intent(this@DateListActivity, TimeActivity::class.java))
+        }
+
     }
 }
