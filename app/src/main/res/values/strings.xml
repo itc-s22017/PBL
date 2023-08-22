@@ -3,4 +3,7 @@
     <string name="date">日付</string>
     <string name="home">ホーム</string>
     <string name="Utilitycosts">光熱費管理画面</string>
+    <string name="gas">ガス：　15時間</string>
+    <string name="electricity">電気：　150時間</string>
+    <string name="sum">合計金額：５０００円</string>
 </resources>
