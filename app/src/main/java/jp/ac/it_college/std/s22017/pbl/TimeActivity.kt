@@ -1,5 +1,6 @@
 package jp.ac.it_college.std.s22017.pbl
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -14,6 +15,11 @@ class TimeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityTimeBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.next.setOnClickListener {
+            val intent = Intent(this@TimeActivity, DateListActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 }
